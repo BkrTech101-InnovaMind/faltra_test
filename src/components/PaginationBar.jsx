@@ -50,7 +50,7 @@ export default function Pagination() {
 
   return (
     <div className="flex items-center gap-4">
-      <PaginationArrows rotate={180} onClick={prev} active={active > 1} />
+      <PaginationArrows rotate={true} onClick={prev} active={active > 1} />
       {getPaginationRange().map((index) => (
         <PaginationButton key={index} {...getItemProps(index)} />
       ))}

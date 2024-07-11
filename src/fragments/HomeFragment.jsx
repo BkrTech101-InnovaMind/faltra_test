@@ -1,5 +1,4 @@
 import DetailsCard from "@/components/DetailsCard";
-import PaginationBar from "@/components/PaginationBar";
 import WithSideBarLayout from "@/layout/WithSideBar";
 import useResponseData from "@/services/useResponseData";
 import React from "react";

@@ -8,7 +8,7 @@ export default function ArrowIcon({ color, size, rotate }) {
       viewBox="0 0 9 15"
       fill={color}
       xmlns="http://www.w3.org/2000/svg"
-      className={`rotate-[${rotate ?? 0}deg]`}
+      className={`${rotate ? "rotate-180" : ""}`}
     >
       <path
         fillRule="evenodd"
