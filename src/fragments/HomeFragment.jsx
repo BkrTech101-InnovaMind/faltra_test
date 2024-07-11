@@ -18,7 +18,7 @@ export default function HomeFragment() {
     <WithSideBarLayout>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data.map((details) => (
-          <DetailsCard key={details.id} details={details} />
+          <DetailsCard key={details.id} details={details.details} />
         ))}
       </section>
       <PaginationBar />
