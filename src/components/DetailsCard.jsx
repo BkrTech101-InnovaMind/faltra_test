@@ -4,7 +4,7 @@ import RatingStart from "./RatingStart";
 
 export default function DetailsCard({ details }) {
   return (
-    <div className="w-full bg-[#F8FAFF] rounded-3xl flex flex-col justify-center items-center object-center shadow-lg  border border-[#E0E6F6] py-5">
+    <div className="w-[80%] bg-[#F8FAFF] rounded-3xl flex flex-col justify-center items-center object-center shadow-lg  border border-[#E0E6F6] py-5">
       <Image
         className="rounded-full w-[25%]"
         src={details.image}

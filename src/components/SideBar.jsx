@@ -175,12 +175,15 @@ export default function SideBar() {
             </button>
 
             <div className="hidden md:block">
-              <form className="space-y-10 divide-y divide-gray-200">
+              <form
+                className="space-y-5 divide-y divide-gray-200"
+                onSubmit={(e) => e.preventDefault()}
+              >
                 <SearchFeild />
                 {filters.map((section, sectionIdx) => (
                   <div
                     key={section.name}
-                    className={sectionIdx === 0 ? null : "pt-10"}
+                    className={sectionIdx === 0 ? null : "pt-5"}
                   >
                     <fieldset>
                       <legend className="block text-sm font-medium text-gray-900">
