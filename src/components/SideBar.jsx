@@ -4,50 +4,45 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon, PlusIcon } from "@heroicons/react/20/solid";
 import SearchFeild from "./SearchFeild";
 import Checkbox from "./Checkbox";
-
-const filters = [
-  {
-    id: "bonus",
-    name: "Bonus",
-    options: [
-      { value: "all", label: "All" },
-      { value: "with", label: "With Bonus" },
-      { value: "without", label: "Without Bonus" },
-    ],
-  },
-  {
-    id: "industry",
-    name: "Industry",
-    options: [
-      { value: "all", label: "All" },
-      { value: "software", label: "Software" },
-      { value: "fenance", label: "Fenance" },
-      { value: "recuiting", label: "Recuiting" },
-      { value: "management", label: "Management" },
-      { value: "advertising", label: "Advertising" },
-    ],
-  },
-  {
-    id: "location",
-    name: "Location",
-    options: [
-      { value: "all", label: "All" },
-      { value: "egypt", label: "Egypt" },
-      { value: "jordan", label: "Jordan" },
-      { value: "london", label: "London" },
-      { value: "unitedState", label: "United State" },
-      { value: "frace", label: "Frace" },
-    ],
-  },
-];
+import useProcessedData from "@/services/useProcesseData";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function SideBar() {
+  const { processedData } = useProcessedData();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [showMoreLocations, setShowMoreLocations] = useState(false);
+  const filters = [
+    {
+      id: "bonus",
+      name: "Bonus",
+      options: [
+        { value: "all", label: "All" },
+        ...processedData.bonus.map((b) => ({
+          value: b != "no" ? "With Bonus" : "Without Bonus",
+          label: b != "no" ? "With Bonus" : "Without Bonus",
+        })),
+      ],
+    },
+    {
+      id: "industry",
+      name: "Industry",
+      options: [
+        { value: "all", label: "All" },
+        ...processedData.industry.map((i) => ({ value: i, label: i })),
+      ],
+    },
+    {
+      id: "location",
+      name: "Location",
+      options: [
+        { value: "all", label: "All" },
+        ...processedData.location.map((l) => ({ value: l, label: l })),
+      ],
+    },
+  ];
 
   return (
     <div className="bg-white">
