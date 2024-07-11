@@ -97,6 +97,7 @@ export default function SideBar() {
 
                   {/* Filters */}
                   <form className="mt-4">
+                    <SearchFeild />
                     {filters.map((section) => (
                       <Disclosure
                         as="div"
@@ -157,7 +158,6 @@ export default function SideBar() {
         </Transition>
 
         <main className="max-w-2xl lg:max-w-7xl">
-          <SearchFeild />
           <aside>
             <h2 className="sr-only">Filters</h2>
 
@@ -175,6 +175,7 @@ export default function SideBar() {
 
             <div className="hidden md:block">
               <form className="space-y-10 divide-y divide-gray-200">
+                <SearchFeild />
                 {filters.map((section, sectionIdx) => (
                   <div
                     key={section.name}
