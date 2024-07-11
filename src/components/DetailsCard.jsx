@@ -13,8 +13,8 @@ export default function DetailsCard({ details }) {
         height={1080}
         priority={true}
       />
-      <div className="text-center">
-        <p className="text-xl text-gray-700 font-bold mb-2">
+      <div className="text-center w-[90%]">
+        <p className="text-xl text-gray-700 font-bold mb-2 truncate">
           {details.company_name}
         </p>
         <p className="flex justify-center items-center">
