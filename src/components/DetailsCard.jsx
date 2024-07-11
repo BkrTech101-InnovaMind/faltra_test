@@ -1,25 +1,42 @@
 import Image from "next/image";
 import React from "react";
+import RatingStart from "./RatingStart";
 
 export default function DetailsCard({ details }) {
   return (
-    <div className="w-full bg-white rounded-lg flex flex-col justify-center items-center">
-      <div className="mb-8">
-        <Image
-          className="object-center object-cover rounded-full h-36 w-36"
-          src={details.details.image}
-          alt={details.details.company_name}
-          width={1920}
-          height={1080}
-          priority={true}
-        />
-      </div>
+    <div className="w-full bg-[#F8FAFF] rounded-3xl flex flex-col justify-center items-center object-center shadow-lg  border border-[#E0E6F6] py-5">
+      <Image
+        className="rounded-full w-[25%]"
+        src={details.image}
+        alt={details.company_name}
+        width={1920}
+        height={1080}
+        priority={true}
+      />
       <div className="text-center">
         <p className="text-xl text-gray-700 font-bold mb-2">
-          {details.details.company_name}
+          {details.company_name}
         </p>
-        <p className="text-base text-gray-400 font-normal">Software Engineer</p>
+        <p className="flex justify-center items-center">
+          <RatingStart rateVal={details.rating} /> {"(65)"}
+        </p>
+        <p className="text-base text-gray-400 font-normal flex justify-center gap-2">
+          <Image
+            src="/assets/images/location-pointer.png"
+            alt="location pointer"
+            width={25}
+            height={25}
+          />
+          {details.country}, {details.brand}
+        </p>
       </div>
+
+      <button
+        type="button"
+        className="py-4 px-5 bg-[#E0E6F6] mt-3 rounded-lg focus:bg-blue-500"
+      >
+        {details.open_jobs} jobs open
+      </button>
     </div>
   );
 }
