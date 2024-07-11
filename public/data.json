@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "1",
+    "details": {
+      "company_name": "car toys",
+      "industry": "advertising",
+      "country": "jordan",
+      "brand": "US",
+      "open_jobs": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "2",
+    "details": {
+      "company_name": "carols daughter",
+      "industry": "software",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "3",
+    "details": {
+      "company_name": "amazon",
+      "industry": "finance",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 2.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "4",
+    "details": {
+      "company_name": "baseball savings",
+      "industry": "recruiting",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 2.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "5",
+    "details": {
+      "company_name": "ashford",
+      "industry": "management",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 2.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "6",
+    "details": {
+      "company_name": "finance express",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 8,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "7",
+    "details": {
+      "company_name": "tech solutions",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "8",
+    "details": {
+      "company_name": "global recruiters",
+      "industry": "recruiting",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 12,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "9",
+    "details": {
+      "company_name": "marketing masters",
+      "industry": "advertising",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "10",
+    "details": {
+      "company_name": "software solutions",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "11",
+    "details": {
+      "company_name": "financial services ltd.",
+      "industry": "finance",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "12",
+    "details": {
+      "company_name": "recruiters united",
+      "industry": "recruiting",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 11,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.1,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "13",
+    "details": {
+      "company_name": "advertising pros",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 13,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "14",
+    "details": {
+      "company_name": "software solutions inc.",
+      "industry": "software",
+      "country": "san jose",
+      "brand": "US",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "15",
+    "details": {
+      "company_name": "finance wizards",
+      "industry": "finance",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 9,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "16",
+    "details": {
+      "company_name": "recruiting experts",
+      "industry": "recruiting",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.4,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "17",
+    "details": {
+      "company_name": "advertising solutions",
+      "industry": "advertising",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 12,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "18",
+    "details": {
+      "company_name": "management experts",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.3,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "19",
+    "details": {
+      "company_name": "software specialists",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "20",
+    "details": {
+      "company_name": "financial experts",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 11,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "21",
+    "details": {
+      "company_name": "recruiting solutions",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 13,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "22",
+    "details": {
+      "company_name": "advertising innovators",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "23",
+    "details": {
+      "company_name": "management solutions",
+      "industry": "management",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "24",
+    "details": {
+      "company_name": "software experts",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "25",
+    "details": {
+      "company_name": "financial solutions",
+      "industry": "finance",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "26",
+    "details": {
+      "company_name": "recruiting masters",
+      "industry": "recruiting",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "27",
+    "details": {
+      "company_name": "advertising experts",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "28",
+    "details": {
+      "company_name": "management consultants",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "29",
+    "details": {
+      "company_name": "software innovations",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "30",
+    "details": {
+      "company_name": "financial advisors",
+      "industry": "finance",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.4,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "31",
+    "details": {
+      "company_name": "recruitment pros",
+      "industry": "recruiting",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "32",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "33",
+    "details": {
+      "company_name": "management gurus",
+      "industry": "management",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 12,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.3,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "34",
+    "details": {
+      "company_name": "software solutions ltd.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "35",
+    "details": {
+      "company_name": "financial wizards",
+      "industry": "finance",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "36",
+    "details": {
+      "company_name": "recruiters unlimited",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 13,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "37",
+    "details": {
+      "company_name": "advertising experts ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "38",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "39",
+    "details": {
+      "company_name": "software innovators",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "40",
+    "details": {
+      "company_name": "financial advisors ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "41",
+    "details": {
+      "company_name": "recruitment masters",
+      "industry": "recruiting",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "42",
+    "details": {
+      "company_name": "advertising gurus",
+      "industry": "advertising",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "43",
+    "details": {
+      "company_name": "management solutions inc.",
+      "industry": "management",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "44",
+    "details": {
+      "company_name": "software experts ltd.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "45",
+    "details": {
+      "company_name": "financial advisors inc.",
+      "industry": "finance",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "46",
+    "details": {
+      "company_name": "recruitment experts ltd.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "47",
+    "details": {
+      "company_name": "advertising solutions inc.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "48",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "49",
+    "details": {
+      "company_name": "software innovations ltd.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "50",
+    "details": {
+      "company_name": "financial solutions ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.5,
+      "bonus": "10"
+    }
+  },
+  {
+    "id": "51",
+    "details": {
+      "company_name": "recruiters inc.",
+      "industry": "recruiting",
+      "country": "chicago",
+      "brand": "UK",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "52",
+    "details": {
+      "company_name": "advertising experts inc.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.4,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "53",
+    "details": {
+      "company_name": "management consultants inc.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 14,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "54",
+    "details": {
+      "company_name": "software solutions inc.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "55",
+    "details": {
+      "company_name": "financial advisors inc.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "56",
+    "details": {
+      "company_name": "recruitment experts inc.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 16,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "57",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "58",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "59",
+    "details": {
+      "company_name": "software innovations ltd.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "60",
+    "details": {
+      "company_name": "financial solutions ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "61",
+    "details": {
+      "company_name": "recruitment masters ltd.",
+      "industry": "recruiting",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "62",
+    "details": {
+      "company_name": "advertising pros inc.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 17,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "63",
+    "details": {
+      "company_name": "management experts ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 18,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "64",
+    "details": {
+      "company_name": "software solutions inc.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "65",
+    "details": {
+      "company_name": "financial advisors ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "66",
+    "details": {
+      "company_name": "recruitment experts inc.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "67",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "68",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "69",
+    "details": {
+      "company_name": "software innovations inc.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "70",
+    "details": {
+      "company_name": "financial solutions inc.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.6,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "71",
+    "details": {
+      "company_name": "recruitment solutions ltd.",
+      "industry": "recruiting",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "72",
+    "details": {
+      "company_name": "advertising consultants inc.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "73",
+    "details": {
+      "company_name": "management experts inc.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 19,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.8,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "74",
+    "details": {
+      "company_name": "software solutions ltd.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "75",
+    "details": {
+      "company_name": "financial advisors ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "76",
+    "details": {
+      "company_name": "recruitment experts ltd.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "77",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "78",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "79",
+    "details": {
+      "company_name": "software innovations ltd.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.4,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "80",
+    "details": {
+      "company_name": "financial solutions ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.7,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "81",
+    "details": {
+      "company_name": "recruitment masters ltd.",
+      "industry": "recruiting",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.5,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "82",
+    "details": {
+      "company_name": "advertising experts inc.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "83",
+    "details": {
+      "company_name": "management consultants inc.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 20,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "84",
+    "details": {
+      "company_name": "software solutions inc.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "85",
+    "details": {
+      "company_name": "financial advisors ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "86",
+    "details": {
+      "company_name": "recruitment experts inc.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 3.9,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "87",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 26,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.4,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "88",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "89",
+    "details": {
+      "company_name": "software innovations ltd.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "90",
+    "details": {
+      "company_name": "financial solutions ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "91",
+    "details": {
+      "company_name": "recruitment masters inc.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.0,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "92",
+    "details": {
+      "company_name": "advertising experts ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 27,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.5,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "93",
+    "details": {
+      "company_name": "management consultants inc.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.4,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "94",
+    "details": {
+      "company_name": "software solutions ltd.",
+      "industry": "software",
+      "country": "seattle",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "95",
+    "details": {
+      "company_name": "financial advisors ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 26,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "96",
+    "details": {
+      "company_name": "recruitment experts inc.",
+      "industry": "recruiting",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 24,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "97",
+    "details": {
+      "company_name": "advertising solutions ltd.",
+      "industry": "advertising",
+      "country": "los angeles",
+      "brand": "US",
+      "open_jobs": 28,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.4,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "98",
+    "details": {
+      "company_name": "management consultants ltd.",
+      "industry": "management",
+      "country": "london",
+      "brand": "UK",
+      "open_jobs": 23,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.3,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "99",
+    "details": {
+      "company_name": "software innovations ltd.",
+      "industry": "software",
+      "country": "san francisco",
+      "brand": "US",
+      "open_jobs": 25,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.2,
+      "bonus": "no"
+    }
+  },
+  {
+    "id": "100",
+    "details": {
+      "company_name": "financial solutions ltd.",
+      "industry": "finance",
+      "country": "new york",
+      "brand": "US",
+      "open_jobs": 27,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "/assets/images/image.png",
+      "rating": 4.1,
+      "bonus": "no"
+    }
+  }
+]
