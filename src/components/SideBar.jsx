@@ -47,6 +47,7 @@ function classNames(...classes) {
 
 export default function SideBar() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [showMoreLocations, setShowMoreLocations] = useState(false);
 
   return (
     <div className="bg-white">
@@ -186,14 +187,49 @@ export default function SideBar() {
                         {section.name}
                       </legend>
                       <div className="space-y-3 pt-6">
-                        {section.options.map((option, optionIdx) => (
-                          <Checkbox
-                            key={option.value}
-                            option={option}
-                            section={section}
-                            optionIdx={optionIdx}
-                          />
-                        ))}
+                        {section.id === "location" ? (
+                          <>
+                            {section.options
+                              .slice(0, 3)
+                              .map((option, optionIdx) => (
+                                <Checkbox
+                                  key={option.value}
+                                  option={option}
+                                  section={section}
+                                  optionIdx={optionIdx}
+                                />
+                              ))}
+                            {showMoreLocations &&
+                              section.options
+                                .slice(3)
+                                .map((option, optionIdx) => (
+                                  <Checkbox
+                                    key={option.value}
+                                    option={option}
+                                    section={section}
+                                    optionIdx={optionIdx + 3}
+                                  />
+                                ))}
+                            <button
+                              type="button"
+                              onClick={() =>
+                                setShowMoreLocations(!showMoreLocations)
+                              }
+                              className="text-blue-500 hover:text-blue-700"
+                            >
+                              {!showMoreLocations ? "See More" : "See Less"}
+                            </button>
+                          </>
+                        ) : (
+                          section.options.map((option, optionIdx) => (
+                            <Checkbox
+                              key={option.value}
+                              option={option}
+                              section={section}
+                              optionIdx={optionIdx}
+                            />
+                          ))
+                        )}
                       </div>
                     </fieldset>
                   </div>
