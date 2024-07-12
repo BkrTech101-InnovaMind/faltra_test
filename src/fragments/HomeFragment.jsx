@@ -7,9 +7,9 @@ export default function HomeFragment() {
   const { data, isLoading, error } = useResponseData();
   const [currentPage, setCurrentPage] = useState(1);
   const [filters, setFilters] = useState({
-    bonus: "all",
-    industry: "all",
-    location: "all",
+    bonus: [],
+    industry: [],
+    location: [],
   });
 
   const handleFilterChange = (newFilters) => {
@@ -22,14 +22,16 @@ export default function HomeFragment() {
   const filteredData = useMemo(() => {
     return data.filter((item) => {
       const bonusMatch =
-        filters.bonus === "all" ||
-        (filters.bonus === "With Bonus" && item.details.bonus !== "no") ||
-        (filters.bonus === "Without Bonus" && item.details.bonus === "no");
+        filters.bonus.length === 0 ||
+        (filters.bonus.includes("With Bonus") && item.details.bonus !== "no") ||
+        (filters.bonus.includes("Without Bonus") &&
+          item.details.bonus === "no");
       const industryMatch =
-        filters.industry === "all" ||
-        item.details.industry === filters.industry;
+        filters.industry.length === 0 ||
+        filters.industry.includes(item.details.industry);
       const locationMatch =
-        filters.location === "all" || item.details.country === filters.location;
+        filters.location.length === 0 ||
+        filters.location.includes(item.details.country);
 
       return bonusMatch && industryMatch && locationMatch;
     });

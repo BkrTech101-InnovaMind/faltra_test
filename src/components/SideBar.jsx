@@ -13,24 +13,27 @@ function classNames(...classes) {
 export default function SideBar({ onFilterChange }) {
   const { processedData } = useProcessedData();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [showMoreLocations, setShowMoreLocations] = useState(false);
   const [selectedFilters, setSelectedFilters] = useState({
-    bonus: "all",
-    industry: "all",
-    location: "all",
+    bonus: [],
+    industry: [],
+    location: [],
   });
 
   const handleFilterChange = (filterId, value) => {
     setSelectedFilters((prevFilters) => {
-      const newFilters = {
-        ...prevFilters,
-        [filterId]: value,
-      };
+      let newFilters = { ...prevFilters };
+
       if (value === "all") {
-        for (let key in newFilters) {
-          if (key !== filterId) newFilters[key] = "all";
+        newFilters[filterId] = [];
+      } else {
+        const filterIndex = newFilters[filterId].indexOf(value);
+        if (filterIndex === -1) {
+          newFilters[filterId].push(value);
+        } else {
+          newFilters[filterId].splice(filterIndex, 1);
         }
       }
+
       onFilterChange(newFilters);
       return newFilters;
     });
@@ -140,7 +143,7 @@ export default function SideBar({ onFilterChange }) {
                             </legend>
                             <Disclosure.Panel className="px-4 pb-2 pt-4">
                               <div className="space-y-6">
-                                {section.options.map((option, optionIdx) => (
+                                {section.options.map((option) => (
                                   <div
                                     key={option.value}
                                     className="flex items-center"
@@ -149,10 +152,9 @@ export default function SideBar({ onFilterChange }) {
                                       key={option.value}
                                       id={`${section.id}-${option.value}-mobile`}
                                       name={`${section.id}`}
-                                      checked={
-                                        selectedFilters[section.id] ===
-                                        option.value
-                                      }
+                                      checked={selectedFilters[
+                                        section.id
+                                      ].includes(option.value)}
                                       onChange={() =>
                                         handleFilterChange(
                                           section.id,
@@ -212,9 +214,9 @@ export default function SideBar({ onFilterChange }) {
                             key={option.value}
                             id={`${section.id}-${option.value}`}
                             name={`${section.id}`}
-                            checked={
-                              selectedFilters[section.id] === option.value
-                            }
+                            checked={selectedFilters[section.id].includes(
+                              option.value
+                            )}
                             onChange={() =>
                               handleFilterChange(section.id, option.value)
                             }
