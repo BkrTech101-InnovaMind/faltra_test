@@ -15,7 +15,7 @@ export default function WithSideBarLayout({
         <SideBar onFilterChange={onFilterChange} />
       </div>
       <div className="flex-1">
-        <div className="max-h-[90%] overflow-y-scroll">{children}</div>
+        <div className="h-[90%] overflow-y-scroll">{children}</div>
         <div className="sticky bottom-0 py-2 bg-white border-t-4">
           <Pagination
             currentPage={currentPage}
