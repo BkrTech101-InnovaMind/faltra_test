@@ -10,20 +10,40 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function SideBar() {
+export default function SideBar({ onFilterChange }) {
   const { processedData } = useProcessedData();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [showMoreLocations, setShowMoreLocations] = useState(false);
+  const [selectedFilters, setSelectedFilters] = useState({
+    bonus: "all",
+    industry: "all",
+    location: "all",
+  });
+
+  const handleFilterChange = (filterId, value) => {
+    setSelectedFilters((prevFilters) => {
+      const newFilters = {
+        ...prevFilters,
+        [filterId]: value,
+      };
+      if (value === "all") {
+        for (let key in newFilters) {
+          if (key !== filterId) newFilters[key] = "all";
+        }
+      }
+      onFilterChange(newFilters);
+      return newFilters;
+    });
+  };
+
   const filters = [
     {
       id: "bonus",
       name: "Bonus",
       options: [
         { value: "all", label: "All" },
-        ...processedData.bonus.map((b) => ({
-          value: b != "no" ? "With Bonus" : "Without Bonus",
-          label: b != "no" ? "With Bonus" : "Without Bonus",
-        })),
+        { value: "With Bonus", label: "With Bonus" },
+        { value: "Without Bonus", label: "Without Bonus" },
       ],
     },
     {
@@ -125,19 +145,22 @@ export default function SideBar() {
                                     key={option.value}
                                     className="flex items-center"
                                   >
-                                    <input
-                                      id={`${section.id}-${optionIdx}-mobile`}
-                                      name={`${section.id}[]`}
-                                      defaultValue={option.value}
-                                      type="checkbox"
-                                      className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                    <Checkbox
+                                      key={option.value}
+                                      id={`${section.id}-${option.value}-mobile`}
+                                      name={`${section.id}`}
+                                      checked={
+                                        selectedFilters[section.id] ===
+                                        option.value
+                                      }
+                                      onChange={() =>
+                                        handleFilterChange(
+                                          section.id,
+                                          option.value
+                                        )
+                                      }
+                                      optionText={option.label}
                                     />
-                                    <label
-                                      htmlFor={`${section.id}-${optionIdx}-mobile`}
-                                      className="ml-3 text-sm text-gray-500"
-                                    >
-                                      {option.label}
-                                    </label>
                                   </div>
                                 ))}
                               </div>
@@ -156,7 +179,6 @@ export default function SideBar() {
         <main className="max-w-2xl lg:max-w-7xl">
           <aside>
             <h2 className="sr-only">Filters</h2>
-
             <button
               type="button"
               className="inline-flex items-center md:hidden"
@@ -185,49 +207,20 @@ export default function SideBar() {
                         {section.name}
                       </legend>
                       <div className="space-y-3 pt-6">
-                        {section.id === "location" ? (
-                          <>
-                            {section.options
-                              .slice(0, 3)
-                              .map((option, optionIdx) => (
-                                <Checkbox
-                                  key={option.value}
-                                  option={option}
-                                  section={section}
-                                  optionIdx={optionIdx}
-                                />
-                              ))}
-                            {showMoreLocations &&
-                              section.options
-                                .slice(3)
-                                .map((option, optionIdx) => (
-                                  <Checkbox
-                                    key={option.value}
-                                    option={option}
-                                    section={section}
-                                    optionIdx={optionIdx + 3}
-                                  />
-                                ))}
-                            <button
-                              type="button"
-                              onClick={() =>
-                                setShowMoreLocations(!showMoreLocations)
-                              }
-                              className="text-blue-500 hover:text-blue-700"
-                            >
-                              {!showMoreLocations ? "See More" : "See Less"}
-                            </button>
-                          </>
-                        ) : (
-                          section.options.map((option, optionIdx) => (
-                            <Checkbox
-                              key={option.value}
-                              option={option}
-                              section={section}
-                              optionIdx={optionIdx}
-                            />
-                          ))
-                        )}
+                        {section.options.map((option) => (
+                          <Checkbox
+                            key={option.value}
+                            id={`${section.id}-${option.value}`}
+                            name={`${section.id}`}
+                            checked={
+                              selectedFilters[section.id] === option.value
+                            }
+                            onChange={() =>
+                              handleFilterChange(section.id, option.value)
+                            }
+                            optionText={option.label}
+                          />
+                        ))}
                       </div>
                     </fieldset>
                   </div>
