@@ -1,36 +1,34 @@
 import { useState } from "react";
 import ArrowIcon from "./ArrowIcon";
 
-export default function Pagination() {
+export default function Pagination({
+  currentPage,
+  totalItems,
+  itemsPerPage,
+  onPageChange,
+}) {
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
   const [active, setActive] = useState(1);
-  const totalItems = 10;
 
   const getItemProps = (index) => ({
     variant: index,
-    onClick: () => setActive(index),
+    onClick: () => {
+      setActive(index);
+      onPageChange(index);
+    },
     className:
       active === index
         ? "rounded-full bg-[#E0E6F6] text-[#66789C]  font-bold"
         : "text-[#A0ABB8]",
   });
 
-  const next = () => {
-    if (active === totalItems) return;
-    setActive(active + 1);
-  };
-
-  const prev = () => {
-    if (active === 1) return;
-    setActive(active - 1);
-  };
-
   const getPaginationRange = () => {
-    if (totalItems <= 5) {
-      return Array.from({ length: totalItems }, (_, i) => i + 1);
+    if (totalPages <= 5) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
     }
 
-    const start = Math.max(1, active - 2);
-    const end = Math.min(totalItems, active + 2);
+    const start = Math.max(1, currentPage - 2);
+    const end = Math.min(totalPages, currentPage + 2);
     const range = [];
 
     for (let i = start; i <= end; i++) {
@@ -41,20 +39,32 @@ export default function Pagination() {
       range.unshift(range[0] - 1);
     }
 
-    while (range.length < 5 && range[range.length - 1] < totalItems) {
+    while (range.length < 5 && range[range.length - 1] < totalPages) {
       range.push(range[range.length - 1] + 1);
     }
 
     return range;
   };
 
+  const next = () => {
+    if (active === totalPages) return;
+    setActive(active + 1);
+    onPageChange(currentPage + 1);
+  };
+
+  const prev = () => {
+    if (active === 1) return;
+    setActive(active - 1);
+    onPageChange(currentPage - 1);
+  };
+
   return (
     <div className="flex items-center gap-4">
-      <PaginationArrows rotate={true} onClick={prev} active={active > 1} />
+      <PaginationArrows rotate={true} onClick={prev} active={currentPage > 1} />
       {getPaginationRange().map((index) => (
         <PaginationButton key={index} {...getItemProps(index)} />
       ))}
-      <PaginationArrows onClick={next} active={active < totalItems} />
+      <PaginationArrows onClick={next} active={currentPage < totalPages} />
     </div>
   );
 }
