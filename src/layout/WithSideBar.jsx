@@ -1,11 +1,10 @@
 import Pagination from "@/components/PaginationBar";
 import SideBar from "@/components/SideBar";
-import React from "react";
 
 export default function WithSideBarLayout({
   children,
   currentPage,
-  filteredData,
+  totalItems,
   itemsPerPage,
   onPageChange,
   onFilterChange,
@@ -20,7 +19,7 @@ export default function WithSideBarLayout({
         <div className="sticky bottom-0 py-2 bg-white border-t-4">
           <Pagination
             currentPage={currentPage}
-            totalItems={filteredData}
+            totalItems={totalItems}
             itemsPerPage={itemsPerPage}
             onPageChange={onPageChange}
           />

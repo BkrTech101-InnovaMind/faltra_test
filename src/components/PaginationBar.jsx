@@ -8,7 +8,7 @@ export default function Pagination({
   onPageChange,
 }) {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
-  const [active, setActive] = useState(1);
+  const [active, setActive] = useState(currentPage);
 
   const getItemProps = (index) => ({
     variant: index,
@@ -47,14 +47,14 @@ export default function Pagination({
   };
 
   const next = () => {
-    if (active === totalPages) return;
-    setActive(active + 1);
+    if (currentPage === totalPages) return;
+    setActive(currentPage + 1);
     onPageChange(currentPage + 1);
   };
 
   const prev = () => {
-    if (active === 1) return;
-    setActive(active - 1);
+    if (currentPage === 1) return;
+    setActive(currentPage - 1);
     onPageChange(currentPage - 1);
   };
 
@@ -68,6 +68,7 @@ export default function Pagination({
     </div>
   );
 }
+
 function PaginationButton({ variant, onClick, className }) {
   return (
     <button className={`py-2 px-4 rounded-full ${className}`} onClick={onClick}>
